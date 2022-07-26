@@ -1,0 +1,180 @@
+.mainContainer {
+    width: 900px;
+    background-color: rgb(191, 236, 246);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.profilePageContainer {
+    width: 900px;
+    background-color: rgb(202, 218, 221);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.links {
+    padding-right: 15px;
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.links:hover {
+text-shadow: 10px;
+transform: scale(1.1);
+}
+
+.imgBox {
+    width: 100px;
+    height: 100px;
+    background-color: antiquewhite;
+}
+.imgBox img{
+    width: 100px;
+    height: 100px;
+    background-color: white; 
+}
+
+
+
+.userCard img{
+    height: 200px;
+    margin: 10px;
+    background-color: bisque;
+}
+
+.userCard{
+    display: flex;
+    flex-direction: column;
+    }
+
+    .margin-top-100{
+        margin-top: 100px;
+    }
+
+
+.d-flex {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-space-around {
+    justify-content: space-around;
+}
+.align-items-center {
+    align-items: center;
+}
+input, button{
+    padding: 5px;
+    margin: 5px 20px 5px 20px;
+}
+
+.padding-5 {
+    padding: 5px;
+}
+.margin-10 {
+    margin: 10px;
+}
+
+
+
+.title {
+    text-align: center;
+    padding: 20px;
+}
+
+.box {
+    height: 200px;
+    background-color: blanchedalmond;
+    width: 400px;
+}
+
+.form {
+    width: 600px;
+    background-color: white;
+}
+
+.justify-content-flex-start{
+    justify-content: flex-start;
+}
+
+.justify-content-flex-end{
+    justify-content: flex-end;
+}
+.justify-content-space-between{
+    justify-content: space-between;
+}
+
+.errorMessage{
+    color: red;
+    font-weight: 700;
+    padding: 5px;
+    margin: 5px 20px 5px 20px;
+
+}
+
+
+
+
+.roleButton{
+    background-color: rgba(43, 46, 226, 0.66);
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 35%;
+}
+
+.roleButton:hover {
+ transform: scale(1.1);
+}
+
+.buttonSmall{
+    background-color: rgba(94, 118, 223, 0.66);
+    color: rgb(42, 36, 217);
+    border: none;
+    width: 150px;
+    height: 40px;
+    padding: 3px;
+}
+
+.width-400 {
+    width: 400px;
+}
+
+.user-card {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(254, 254, 254);
+    margin: 20px;
+    padding: 10px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  
+}
+.userCardWrapper{
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: space-around;
+}
